@@ -15,6 +15,7 @@
 		63A05AF529D40A75002F0FFF /* SwiftUIBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A05AF429D40A75002F0FFF /* SwiftUIBootCampUITests.swift */; };
 		63A05AF729D40A75002F0FFF /* SwiftUIBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A05AF629D40A75002F0FFF /* SwiftUIBootCampUITestsLaunchTests.swift */; };
 		63A05B0429D426B5002F0FFF /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A05B0329D426B5002F0FFF /* TextBootcamp.swift */; };
+		63A05B0629D44166002F0FFF /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A05B0529D44166002F0FFF /* ShapesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		63A05AF429D40A75002F0FFF /* SwiftUIBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITests.swift; sourceTree = "<group>"; };
 		63A05AF629D40A75002F0FFF /* SwiftUIBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63A05B0329D426B5002F0FFF /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		63A05B0529D44166002F0FFF /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				63A05AD929D40A72002F0FFF /* SwiftUIBootCampApp.swift */,
 				63A05ADB29D40A72002F0FFF /* ContentView.swift */,
 				63A05B0329D426B5002F0FFF /* TextBootcamp.swift */,
+				63A05B0529D44166002F0FFF /* ShapesBootcamp.swift */,
 				63A05ADD29D40A74002F0FFF /* Assets.xcassets */,
 				63A05ADF29D40A74002F0FFF /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A05B0629D44166002F0FFF /* ShapesBootcamp.swift in Sources */,
 				63A05ADC29D40A72002F0FFF /* ContentView.swift in Sources */,
 				63A05B0429D426B5002F0FFF /* TextBootcamp.swift in Sources */,
 				63A05ADA29D40A72002F0FFF /* SwiftUIBootCampApp.swift in Sources */,
