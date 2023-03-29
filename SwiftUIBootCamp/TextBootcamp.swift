@@ -17,7 +17,6 @@ struct TextBootcamp: View {
             //.underline()
             .underline(true, pattern: .dash, color: Color.yellow)
             .strikethrough(true, pattern: .dash, color: Color.red)
-            .italic(true)
     }
 }
 
