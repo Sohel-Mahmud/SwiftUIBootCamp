@@ -26,6 +26,7 @@
 		63A05B0629D44166002F0FFF /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A05B0529D44166002F0FFF /* ShapesBootcamp.swift */; };
 		63F2D59729E68FED00326255 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2D59629E68FED00326255 /* StacksBootcamp.swift */; };
 		63F2D59929E6ACE100326255 /* PaddingAndSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2D59829E6ACE100326255 /* PaddingAndSpacerBootcamp.swift */; };
+		DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		63A05B0529D44166002F0FFF /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		63F2D59629E68FED00326255 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		63F2D59829E6ACE100326255 /* PaddingAndSpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerBootcamp.swift; sourceTree = "<group>"; };
+		DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				63F2D59629E68FED00326255 /* StacksBootcamp.swift */,
 				63F2D59829E6ACE100326255 /* PaddingAndSpacerBootcamp.swift */,
 				634F08AC29E800A700DE8CDF /* InitializerBootcamp.swift */,
+				DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */,
 				63A05ADD29D40A74002F0FFF /* Assets.xcassets */,
 				63A05ADF29D40A74002F0FFF /* Preview Content */,
 			);
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				636C5B2829D5809100EDDC72 /* ColorsBootcamp.swift in Sources */,
+				DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */,
 				633FF42129E5586A004AA3CE /* BackgroundAndOverlay.swift in Sources */,
 				6322CD7829E0270D00CF3027 /* BackgroundBootcamp.swift in Sources */,
 				63A05B0629D44166002F0FFF /* ShapesBootcamp.swift in Sources */,
