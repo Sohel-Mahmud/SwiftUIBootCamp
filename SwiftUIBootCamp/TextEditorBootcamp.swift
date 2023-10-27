@@ -1,25 +1,24 @@
 //
-//  TextFieldBootcamp.swift
+//  TextEditorBootcamp.swift
 //  SwiftUIBootCamp
 //
-//  Created by Sohel Mahmud on 26/10/23.
+//  Created by Sohel Mahmud on 27/10/23.
 //
 
 import SwiftUI
 
-struct TextFieldBootcamp: View {
-    
-    @State var textFieldText: String = ""
-    @State var dataArray: [String] = []
+struct TextEditorBootcamp: View {
+    @State var textEditorText: String = "This is text editor"
+    @State var savedText: String = ""
     var body: some View {
         NavigationStack{
             VStack{
-                TextField("Type here..", text: $textFieldText)
+                TextEditor( text: $textEditorText)
                     //.textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
-                    .background(Color.gray.opacity(0.3).clipShape(RoundedRectangle(cornerRadius: 10)))
-                    .foregroundStyle(Color.red)
+                    .colorMultiply(Color.gray.opacity(0.3))
                     .font(.headline)
+                    .frame(height: 250)
+                    .clipShape(RoundedRectangle(cornerRadius: 10.0))
                 
                 Button(action: {
                     if isTextAppropriate(){
@@ -37,21 +36,19 @@ struct TextFieldBootcamp: View {
                 })
                 .disabled(!isTextAppropriate())
                 
-                ForEach(dataArray, id: \.self) { data in
-                    Text(data)
-                }
+                Text(savedText)
                 
                 Spacer()
                 
             }
             .padding()
-            .navigationTitle("TextField Bootcamp")
+            .navigationTitle("Text Editor")
+
         }
-        
     }
     
     func isTextAppropriate() -> Bool{
-        if textFieldText.count >= 3{
+        if textEditorText.count >= 3{
             return true
         }
         
@@ -59,11 +56,11 @@ struct TextFieldBootcamp: View {
     }
     
     func saveText(){
-        dataArray.append(textFieldText)
-        textFieldText = ""
+        savedText = textEditorText
+        textEditorText = ""
     }
 }
 
 #Preview {
-    TextFieldBootcamp()
+    TextEditorBootcamp()
 }
