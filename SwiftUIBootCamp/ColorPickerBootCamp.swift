@@ -19,6 +19,7 @@ struct ColorPickerBootCamp: View {
             .background(Color.black)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .foregroundStyle(.white)
+            .shadow(radius: 5)
             .padding(50)
         }
     }

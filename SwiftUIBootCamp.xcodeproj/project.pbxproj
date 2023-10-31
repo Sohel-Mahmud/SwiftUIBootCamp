@@ -29,6 +29,9 @@
 		DF0A1B242ADF987B00FBD23D /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A1B232ADF987B00FBD23D /* SafeAreaBootcamp.swift */; };
 		DF0A1B262ADFB38F00FBD23D /* ButtonsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A1B252ADFB38F00FBD23D /* ButtonsBootCamp.swift */; };
 		DF0A1B282ADFF64700FBD23D /* StateBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A1B272ADFF64700FBD23D /* StateBootCamp.swift */; };
+		DF11B2952AF0DDDC001EBAC3 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B2942AF0DDDC001EBAC3 /* StepperBootcamp.swift */; };
+		DF11B2982AF0F5DB001EBAC3 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B2972AF0F5DB001EBAC3 /* SliderBootcamp.swift */; };
+		DF11B29A2AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B2992AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift */; };
 		DF14C7B22ADE3C76006A26F7 /* LazyVHGridBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14C7B12ADE3C76006A26F7 /* LazyVHGridBootCamp.swift */; };
 		DF202E482ADD3E3F00EC353D /* ScrollViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF202E472ADD3E3F00EC353D /* ScrollViewBootCamp.swift */; };
 		DF2AFF732AE9319400894933 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AFF722AE9319400894933 /* AlertBootcamp.swift */; };
@@ -49,6 +52,7 @@
 		DFDD822A2AEBAB99000D133B /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */; };
 		DFDD822C2AEBC986000D133B /* ColorPickerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */; };
 		DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */; };
+		DFFED5AB2AEFC4C7008DAD54 /* DataPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFED5AA2AEFC4C7008DAD54 /* DataPickerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +98,9 @@
 		DF0A1B232ADF987B00FBD23D /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		DF0A1B252ADFB38F00FBD23D /* ButtonsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootCamp.swift; sourceTree = "<group>"; };
 		DF0A1B272ADFF64700FBD23D /* StateBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootCamp.swift; sourceTree = "<group>"; };
+		DF11B2942AF0DDDC001EBAC3 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
+		DF11B2972AF0F5DB001EBAC3 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
+		DF11B2992AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewBootcamp.swift; sourceTree = "<group>"; };
 		DF14C7B12ADE3C76006A26F7 /* LazyVHGridBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVHGridBootCamp.swift; sourceTree = "<group>"; };
 		DF202E472ADD3E3F00EC353D /* ScrollViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootCamp.swift; sourceTree = "<group>"; };
 		DF2AFF722AE9319400894933 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
@@ -114,6 +121,7 @@
 		DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootCamp.swift; sourceTree = "<group>"; };
 		DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootCamp.swift; sourceTree = "<group>"; };
+		DFFED5AA2AEFC4C7008DAD54 /* DataPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +209,11 @@
 				DFDD82272AEB7A2C000D133B /* ToggleBootcamp.swift */,
 				DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */,
 				DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */,
+				DFFED5AA2AEFC4C7008DAD54 /* DataPickerBootcamp.swift */,
+				DF11B2942AF0DDDC001EBAC3 /* StepperBootcamp.swift */,
+				DF11B2972AF0F5DB001EBAC3 /* SliderBootcamp.swift */,
+				DF11B2992AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift */,
+				DF11B2962AF0F5CF001EBAC3 /* New Group */,
 				63A05ADD29D40A74002F0FFF /* Assets.xcassets */,
 				63A05ADF29D40A74002F0FFF /* Preview Content */,
 			);
@@ -230,6 +243,13 @@
 				63A05AF629D40A75002F0FFF /* SwiftUIBootCampUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIBootCampUITests;
+			sourceTree = "<group>";
+		};
+		DF11B2962AF0F5CF001EBAC3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +316,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					63A05AD529D40A72002F0FFF = {
 						CreatedOnToolsVersion = 14.2;
@@ -366,6 +386,7 @@
 				636C5B2829D5809100EDDC72 /* ColorsBootcamp.swift in Sources */,
 				DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */,
 				DFBF43E42AEA44AA00AD7792 /* ContextMenuBootcamp.swift in Sources */,
+				DFFED5AB2AEFC4C7008DAD54 /* DataPickerBootcamp.swift in Sources */,
 				DF2AFF732AE9319400894933 /* AlertBootcamp.swift in Sources */,
 				DF202E482ADD3E3F00EC353D /* ScrollViewBootCamp.swift in Sources */,
 				DF65B3EE2AE6452000D7ABBA /* PopUpSheetBootCamp.swift in Sources */,
@@ -376,15 +397,18 @@
 				DFDD822C2AEBC986000D133B /* ColorPickerBootCamp.swift in Sources */,
 				DFDD82282AEB7A2C000D133B /* ToggleBootcamp.swift in Sources */,
 				DFD379472AE13A6E00C80748 /* BindingBootCamp.swift in Sources */,
+				DF11B2982AF0F5DB001EBAC3 /* SliderBootcamp.swift in Sources */,
 				DFCCD0D72AE7CD73007501E8 /* ListBootCamp.swift in Sources */,
 				63A05ADC29D40A72002F0FFF /* ContentView.swift in Sources */,
 				DF65B3EC2AE62B6F00D7ABBA /* TransitionBootCamp.swift in Sources */,
 				DF0A1B242ADF987B00FBD23D /* SafeAreaBootcamp.swift in Sources */,
 				634F08AD29E800A700DE8CDF /* InitializerBootcamp.swift in Sources */,
 				DFD379452AE1247500C80748 /* SubViewBootCamp.swift in Sources */,
+				DF11B29A2AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift in Sources */,
 				637E36AE29D6EF4000C0DB38 /* FramesBootcamp.swift in Sources */,
 				63A05B0429D426B5002F0FFF /* TextBootcamp.swift in Sources */,
 				DF0A1B282ADFF64700FBD23D /* StateBootCamp.swift in Sources */,
+				DF11B2952AF0DDDC001EBAC3 /* StepperBootcamp.swift in Sources */,
 				DF97A7F02AE25745000E0A2E /* AnimationBootCamp.swift in Sources */,
 				DFDD82262AEB6FF4000D133B /* TextEditorBootcamp.swift in Sources */,
 				DF97A7F22AE29BA6000E0A2E /* AnimationTimingBootCamp.swift in Sources */,
@@ -471,6 +495,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -531,6 +556,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
