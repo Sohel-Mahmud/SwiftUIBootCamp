@@ -35,8 +35,11 @@
 		DF14C7B22ADE3C76006A26F7 /* LazyVHGridBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14C7B12ADE3C76006A26F7 /* LazyVHGridBootCamp.swift */; };
 		DF202E482ADD3E3F00EC353D /* ScrollViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF202E472ADD3E3F00EC353D /* ScrollViewBootCamp.swift */; };
 		DF2AFF732AE9319400894933 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AFF722AE9319400894933 /* AlertBootcamp.swift */; };
+		DF2C1FE32AF9FC5400559D3A /* IfLetGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C1FE22AF9FC5400559D3A /* IfLetGuardBootcamp.swift */; };
+		DF2C1FE52AFA15A500559D3A /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C1FE42AFA15A500559D3A /* TapGestureBootcamp.swift */; };
 		DF65B3EC2AE62B6F00D7ABBA /* TransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65B3EB2AE62B6F00D7ABBA /* TransitionBootCamp.swift */; };
 		DF65B3EE2AE6452000D7ABBA /* PopUpSheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65B3ED2AE6452000D7ABBA /* PopUpSheetBootCamp.swift */; };
+		DF76DE832AF3BA3D007C28E5 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76DE822AF3BA3D007C28E5 /* DarkModeBootcamp.swift */; };
 		DF97A7F02AE25745000E0A2E /* AnimationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97A7EF2AE25745000E0A2E /* AnimationBootCamp.swift */; };
 		DF97A7F22AE29BA6000E0A2E /* AnimationTimingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97A7F12AE29BA6000E0A2E /* AnimationTimingBootCamp.swift */; };
 		DFBF43E22AEA183A00AD7792 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF43E12AEA183A00AD7792 /* ActionSheetBootcamp.swift */; };
@@ -47,10 +50,12 @@
 		DFD379432AE101BC00C80748 /* FunctionViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD379422AE101BC00C80748 /* FunctionViewBootcamp.swift */; };
 		DFD379452AE1247500C80748 /* SubViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD379442AE1247500C80748 /* SubViewBootCamp.swift */; };
 		DFD379472AE13A6E00C80748 /* BindingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD379462AE13A6E00C80748 /* BindingBootCamp.swift */; };
+		DFD83EA42AF50BA4009AB770 /* MarkUpsDocBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD83EA32AF50BA4009AB770 /* MarkUpsDocBootcamp.swift */; };
 		DFDD82262AEB6FF4000D133B /* TextEditorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82252AEB6FF4000D133B /* TextEditorBootcamp.swift */; };
 		DFDD82282AEB7A2C000D133B /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82272AEB7A2C000D133B /* ToggleBootcamp.swift */; };
 		DFDD822A2AEBAB99000D133B /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */; };
 		DFDD822C2AEBC986000D133B /* ColorPickerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */; };
+		DFF5FF392AF8DD03003A8643 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5FF382AF8DD03003A8643 /* OnAppearBootcamp.swift */; };
 		DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */; };
 		DFFED5AB2AEFC4C7008DAD54 /* DataPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFED5AA2AEFC4C7008DAD54 /* DataPickerBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -104,8 +109,11 @@
 		DF14C7B12ADE3C76006A26F7 /* LazyVHGridBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVHGridBootCamp.swift; sourceTree = "<group>"; };
 		DF202E472ADD3E3F00EC353D /* ScrollViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootCamp.swift; sourceTree = "<group>"; };
 		DF2AFF722AE9319400894933 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
+		DF2C1FE22AF9FC5400559D3A /* IfLetGuardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardBootcamp.swift; sourceTree = "<group>"; };
+		DF2C1FE42AFA15A500559D3A /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
 		DF65B3EB2AE62B6F00D7ABBA /* TransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootCamp.swift; sourceTree = "<group>"; };
 		DF65B3ED2AE6452000D7ABBA /* PopUpSheetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSheetBootCamp.swift; sourceTree = "<group>"; };
+		DF76DE822AF3BA3D007C28E5 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		DF97A7EF2AE25745000E0A2E /* AnimationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootCamp.swift; sourceTree = "<group>"; };
 		DF97A7F12AE29BA6000E0A2E /* AnimationTimingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootCamp.swift; sourceTree = "<group>"; };
 		DFBF43E12AEA183A00AD7792 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
@@ -116,10 +124,12 @@
 		DFD379422AE101BC00C80748 /* FunctionViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewBootcamp.swift; sourceTree = "<group>"; };
 		DFD379442AE1247500C80748 /* SubViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewBootCamp.swift; sourceTree = "<group>"; };
 		DFD379462AE13A6E00C80748 /* BindingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootCamp.swift; sourceTree = "<group>"; };
+		DFD83EA32AF50BA4009AB770 /* MarkUpsDocBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkUpsDocBootcamp.swift; sourceTree = "<group>"; };
 		DFDD82252AEB6FF4000D133B /* TextEditorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBootcamp.swift; sourceTree = "<group>"; };
 		DFDD82272AEB7A2C000D133B /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
 		DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootCamp.swift; sourceTree = "<group>"; };
+		DFF5FF382AF8DD03003A8643 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
 		DFFE2E702AD7EADD0072D973 /* ForEachBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootCamp.swift; sourceTree = "<group>"; };
 		DFFED5AA2AEFC4C7008DAD54 /* DataPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +223,11 @@
 				DF11B2942AF0DDDC001EBAC3 /* StepperBootcamp.swift */,
 				DF11B2972AF0F5DB001EBAC3 /* SliderBootcamp.swift */,
 				DF11B2992AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift */,
+				DF76DE822AF3BA3D007C28E5 /* DarkModeBootcamp.swift */,
+				DFD83EA32AF50BA4009AB770 /* MarkUpsDocBootcamp.swift */,
+				DFF5FF382AF8DD03003A8643 /* OnAppearBootcamp.swift */,
+				DF2C1FE22AF9FC5400559D3A /* IfLetGuardBootcamp.swift */,
+				DF2C1FE42AFA15A500559D3A /* TapGestureBootcamp.swift */,
 				DF11B2962AF0F5CF001EBAC3 /* New Group */,
 				63A05ADD29D40A74002F0FFF /* Assets.xcassets */,
 				63A05ADF29D40A74002F0FFF /* Preview Content */,
@@ -382,7 +397,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF5FF392AF8DD03003A8643 /* OnAppearBootcamp.swift in Sources */,
 				DF14C7B22ADE3C76006A26F7 /* LazyVHGridBootCamp.swift in Sources */,
+				DF76DE832AF3BA3D007C28E5 /* DarkModeBootcamp.swift in Sources */,
 				636C5B2829D5809100EDDC72 /* ColorsBootcamp.swift in Sources */,
 				DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */,
 				DFBF43E42AEA44AA00AD7792 /* ContextMenuBootcamp.swift in Sources */,
@@ -401,9 +418,12 @@
 				DFCCD0D72AE7CD73007501E8 /* ListBootCamp.swift in Sources */,
 				63A05ADC29D40A72002F0FFF /* ContentView.swift in Sources */,
 				DF65B3EC2AE62B6F00D7ABBA /* TransitionBootCamp.swift in Sources */,
+				DFD83EA42AF50BA4009AB770 /* MarkUpsDocBootcamp.swift in Sources */,
 				DF0A1B242ADF987B00FBD23D /* SafeAreaBootcamp.swift in Sources */,
 				634F08AD29E800A700DE8CDF /* InitializerBootcamp.swift in Sources */,
+				DF2C1FE32AF9FC5400559D3A /* IfLetGuardBootcamp.swift in Sources */,
 				DFD379452AE1247500C80748 /* SubViewBootCamp.swift in Sources */,
+				DF2C1FE52AFA15A500559D3A /* TapGestureBootcamp.swift in Sources */,
 				DF11B29A2AF104AD001EBAC3 /* TabViewPageTabViewBootcamp.swift in Sources */,
 				637E36AE29D6EF4000C0DB38 /* FramesBootcamp.swift in Sources */,
 				63A05B0429D426B5002F0FFF /* TextBootcamp.swift in Sources */,
