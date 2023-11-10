@@ -81,7 +81,7 @@ struct HomeView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 10))
                 )
                 .padding()
-                .tabViewStyle(PageTabViewStyle())
+                .tabViewStyle(PageTabViewStyle(/*indexDisplayMode: .never*/))
                 
                 
             }
