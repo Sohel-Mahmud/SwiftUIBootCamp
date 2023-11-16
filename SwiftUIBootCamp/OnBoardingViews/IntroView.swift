@@ -19,9 +19,10 @@ struct IntroView: View {
             
             if currentUserSignedIn {
                 ProfilesView()
-                    .padding()
+                    .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
             } else {
                 OnboardingView()
+                    .transition(.asymmetric(insertion: .move(edge: .top), removal: .move(edge: .bottom)))
             }
             
             

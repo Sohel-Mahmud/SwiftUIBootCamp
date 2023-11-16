@@ -67,6 +67,21 @@ struct ButtonsBootCamp: View {
                             .stroke(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 2.0)
                     )
             })
+            
+            /// New buttonStyle on iOS 15
+            Button("Button Title") {
+                
+            }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.bordered)
+            
+            Button("Button Title") {
+                
+            }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.borderedProminent)
         }
     }
 }
