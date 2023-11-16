@@ -9,10 +9,20 @@ import SwiftUI
 
 struct OnboardingView: View {
     
-    @State var onboardingState: Int = 3
-    @State var textFieldText: String = ""
+    @State var onboardingState: Int = 0
+    @State var name: String = ""
     @State var age: Double = 25
     @State var gender: String = ""
+    @State var alertTitle: String = ""
+    @State var showAlert: Bool = false
+    
+    // app storage
+    @AppStorage("name") var currntUserName: String?
+    @AppStorage("age") var currentUserAge: Int?
+    @AppStorage("gender") var currentUserGender: String?
+    @AppStorage("signed_in") var currentUserSignedIn: Bool = false
+    
+    let transition: AnyTransition = .asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading))
     
     var body: some View {
         ZStack {
@@ -21,16 +31,20 @@ struct OnboardingView: View {
             
             // content
             switch onboardingState {
-                case 0:
-                    welcomeSection
-                case 1:
-                    addNameSection
-                case 2:
-                    addAgeSection
-                case 3:
-                    addGenderSection
-                default:
-                    RoundedRectangle(cornerRadius: 25)
+            case 0:
+                welcomeSection
+                    .transition(transition)
+            case 1:
+                addNameSection
+                    .transition(transition)
+            case 2:
+                addAgeSection
+                    .transition(transition)
+            case 3:
+                addGenderSection
+                    .transition(transition)
+            default:
+                RoundedRectangle(cornerRadius: 25)
                     .foregroundStyle(.green)
             }
             
@@ -42,26 +56,30 @@ struct OnboardingView: View {
             }
             .padding(30)
         }
+        .alert(alertTitle, isPresented: $showAlert) {
+            
+        }
     }
     
     
 }
 
-// MARK: Cmponents
+// MARK: COMPONENTS
 
 extension OnboardingView {
     
     private var bottomButton: some View {
-        Text("Sign in")
+        Text(onboardingState == 0 ? "Sign Up" : onboardingState == 3 ? "FINISH" : "NEXT")
             .foregroundStyle(.purple)
             .frame(height: 55)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             .background(
                 Color.white
             )
+            .animation(nil)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .onTapGesture {
-                
+                handleNextButtonPressed()
             }
     }
     
@@ -104,7 +122,7 @@ extension OnboardingView {
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
             
-            TextField("Your name here", text: $textFieldText)
+            TextField("Your name here", text: $name)
                 .font(.headline)
                 .frame(height: 55)
                 .padding(.horizontal)
@@ -127,7 +145,7 @@ extension OnboardingView {
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
-                
+            
             Text("\(String(format: "%.0f", age))")
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .foregroundStyle(.white)
@@ -149,11 +167,13 @@ extension OnboardingView {
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
-                
+            
+            
             Picker(selection: $gender) {
                 Text("Male").tag("Male")
                 Text("Female").tag("Female")
             } label: {
+                
                 Text(gender.count > 1 ? gender : "Select a gender")
                     .font(.headline)
                     .foregroundStyle(.purple)
@@ -163,14 +183,65 @@ extension OnboardingView {
                         Color.white
                     )
                     .cornerRadius(10)
-
+                
+                
             }
             .pickerStyle(.menu)
-            
+            .accentColor(.white)
             Spacer()
             Spacer()
         }
         .padding()
+    }
+}
+
+// MARK: FUNCTIONS
+extension OnboardingView {
+    
+    func handleNextButtonPressed() {
+        
+        // check inputs
+        switch onboardingState { 
+        case 1:
+            guard name.count >= 3 else {
+                showAlert(title: "Name should be more than 3 charecters")
+                return
+            }
+        case 3:
+            guard gender.count > 1 else {
+                showAlert(title: "Please select gender")
+                return
+            }
+        default:
+            break
+        }
+        
+        // got to next section
+        if onboardingState == 3 {
+            // sign in
+            signIn()
+        } else {
+            
+            withAnimation(.spring()) {
+                onboardingState += 1
+            }
+        }
+    }
+    
+    func signIn() {
+        currntUserName = name
+        currentUserAge = Int(age)
+        currentUserGender = gender
+        withAnimation(.spring) {
+            currentUserSignedIn = true
+
+        }
+        
+    }
+    
+    func showAlert(title: String) {
+        alertTitle = title
+        showAlert.toggle()
     }
 }
 
