@@ -81,8 +81,21 @@ struct ButtonsBootCamp: View {
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
+            .controlSize(.large)
             .buttonStyle(.borderedProminent)
+            
+            Button(action: {
+                
+            }, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+            })
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.roundedRectangle(radius: 10))
+            .controlSize(.large)
         }
+        .padding()
     }
 }
 
