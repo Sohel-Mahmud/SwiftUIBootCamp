@@ -12,20 +12,23 @@ struct NavigationViewBootCamp: View {
         NavigationStack {
             ScrollView {
                 NavigationLink("Hello, world", destination: MyOtherScreen())
-                
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                 
+                ForEach(0..<50){ data in
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame( height: 100)
+                        .frame(maxWidth: .infinity)
+                        
+                }
             }
             .navigationTitle("All Inbox")
             .navigationBarTitleDisplayMode(/*@START_MENU_TOKEN@*/.automatic/*@END_MENU_TOKEN@*/)
             //.toolbar(Visibility.hidden)
+            .padding()
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                        Button(action: {}) { Image(systemName: "book") }
                    }
-                   ToolbarItem(placement: .primaryAction) {
+                ToolbarItem(placement: .primaryAction) {
                        Button(action: {}) { Image(systemName: "gear") }
                    }
                 ToolbarItem(placement: .topBarLeading) {
@@ -43,6 +46,17 @@ struct NavigationViewBootCamp: View {
 //                   ToolbarItem(placement: .bottomBar) {
 //                       Button(action: {}) { Image(systemName: "2.square") }
 //                   }
+            }
+            //.toolbar(.automatic, for: .automatic)
+            //.toolbarBackground(.hidden, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarTitleMenu {
+                Button("Screen 1") {
+                    
+                }
+                Button("Screen 2") {
+                    
+                }
             }
         }
     }
