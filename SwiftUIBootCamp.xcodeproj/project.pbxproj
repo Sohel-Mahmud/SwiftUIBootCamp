@@ -46,6 +46,11 @@
 		DF65B3EE2AE6452000D7ABBA /* PopUpSheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65B3ED2AE6452000D7ABBA /* PopUpSheetBootCamp.swift */; };
 		DF76DE832AF3BA3D007C28E5 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76DE822AF3BA3D007C28E5 /* DarkModeBootcamp.swift */; };
 		DF891CC52B0DFF7200527CD6 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF891CC42B0DFF7200527CD6 /* NavigationStackBootcamp.swift */; };
+		DF8BA3AA2B0F42D400D5BF75 /* SafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BA3A92B0F42D400D5BF75 /* SafeAreaInsetBootcamp.swift */; };
+		DF8BA3AC2B0F47A000D5BF75 /* GroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BA3AB2B0F47A000D5BF75 /* GroupBootcamp.swift */; };
+		DF8BA3AE2B0F511A00D5BF75 /* AnimationUpdatedBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BA3AD2B0F511A00D5BF75 /* AnimationUpdatedBootcamp.swift */; };
+		DF8BA3B02B0F63FC00D5BF75 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BA3AF2B0F63FC00D5BF75 /* MenuBootcamp.swift */; };
+		DF8BA3B22B0F689800D5BF75 /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BA3B12B0F689800D5BF75 /* NativePopoverBootcamp.swift */; };
 		DF9518FE2B05EBBA00C29989 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9518FD2B05EBBA00C29989 /* ProfileView.swift */; };
 		DF9519002B06081800C29989 /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9518FF2B06081800C29989 /* AsyncImageBootcamp.swift */; };
 		DF9519022B061A6800C29989 /* BackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9519012B061A6800C29989 /* BackgroundMaterialsBootcamp.swift */; };
@@ -135,6 +140,11 @@
 		DF65B3ED2AE6452000D7ABBA /* PopUpSheetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSheetBootCamp.swift; sourceTree = "<group>"; };
 		DF76DE822AF3BA3D007C28E5 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		DF891CC42B0DFF7200527CD6 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
+		DF8BA3A92B0F42D400D5BF75 /* SafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
+		DF8BA3AB2B0F47A000D5BF75 /* GroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBootcamp.swift; sourceTree = "<group>"; };
+		DF8BA3AD2B0F511A00D5BF75 /* AnimationUpdatedBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedBootcamp.swift; sourceTree = "<group>"; };
+		DF8BA3AF2B0F63FC00D5BF75 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
+		DF8BA3B12B0F689800D5BF75 /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
 		DF9518FD2B05EBBA00C29989 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DF9518FF2B06081800C29989 /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		DF9519012B061A6800C29989 /* BackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
@@ -271,6 +281,11 @@
 				DF9519092B07627200C29989 /* FocusStateBootcamp.swift */,
 				DF4490A82B0CBE22002D395B /* SubmitButtonKeyboardBootcamp.swift */,
 				DF891CC42B0DFF7200527CD6 /* NavigationStackBootcamp.swift */,
+				DF8BA3A92B0F42D400D5BF75 /* SafeAreaInsetBootcamp.swift */,
+				DF8BA3AB2B0F47A000D5BF75 /* GroupBootcamp.swift */,
+				DF8BA3AD2B0F511A00D5BF75 /* AnimationUpdatedBootcamp.swift */,
+				DF8BA3AF2B0F63FC00D5BF75 /* MenuBootcamp.swift */,
+				DF8BA3B12B0F689800D5BF75 /* NativePopoverBootcamp.swift */,
 				63A05ADD29D40A74002F0FFF /* Assets.xcassets */,
 				63A05ADF29D40A74002F0FFF /* Preview Content */,
 			);
@@ -451,17 +466,21 @@
 				DFFE2E712AD7EADD0072D973 /* ForEachBootCamp.swift in Sources */,
 				DFBF43E42AEA44AA00AD7792 /* ContextMenuBootcamp.swift in Sources */,
 				DFFED5AB2AEFC4C7008DAD54 /* DataPickerBootcamp.swift in Sources */,
+				DF8BA3B02B0F63FC00D5BF75 /* MenuBootcamp.swift in Sources */,
 				DF2AFF732AE9319400894933 /* AlertBootcamp.swift in Sources */,
 				DF202E482ADD3E3F00EC353D /* ScrollViewBootCamp.swift in Sources */,
 				DF65B3EE2AE6452000D7ABBA /* PopUpSheetBootCamp.swift in Sources */,
+				DF8BA3B22B0F689800D5BF75 /* NativePopoverBootcamp.swift in Sources */,
 				DF9518FE2B05EBBA00C29989 /* ProfileView.swift in Sources */,
 				633FF42129E5586A004AA3CE /* BackgroundAndOverlay.swift in Sources */,
 				6322CD7829E0270D00CF3027 /* BackgroundBootcamp.swift in Sources */,
 				DF9519042B061E6900C29989 /* TextSelectionBootcamp.swift in Sources */,
+				DF8BA3AC2B0F47A000D5BF75 /* GroupBootcamp.swift in Sources */,
 				DFCCD0D52AE79AF7007501E8 /* NavigationViewBootCamp.swift in Sources */,
 				63A05B0629D44166002F0FFF /* ShapesBootcamp.swift in Sources */,
 				DFDD822C2AEBC986000D133B /* ColorPickerBootCamp.swift in Sources */,
 				DFDD82282AEB7A2C000D133B /* ToggleBootcamp.swift in Sources */,
+				DF8BA3AE2B0F511A00D5BF75 /* AnimationUpdatedBootcamp.swift in Sources */,
 				DFD379472AE13A6E00C80748 /* BindingBootCamp.swift in Sources */,
 				DF4FD0622B021C240041945F /* IntroView.swift in Sources */,
 				DF891CC52B0DFF7200527CD6 /* NavigationStackBootcamp.swift in Sources */,
@@ -488,6 +507,7 @@
 				DF11B2952AF0DDDC001EBAC3 /* StepperBootcamp.swift in Sources */,
 				DF4FD0642B021FC40041945F /* OnboardingView.swift in Sources */,
 				DF97A7F02AE25745000E0A2E /* AnimationBootCamp.swift in Sources */,
+				DF8BA3AA2B0F42D400D5BF75 /* SafeAreaInsetBootcamp.swift in Sources */,
 				DFDD82262AEB6FF4000D133B /* TextEditorBootcamp.swift in Sources */,
 				DF97A7F22AE29BA6000E0A2E /* AnimationTimingBootCamp.swift in Sources */,
 				637E36A829D6AC5300C0DB38 /* GradientBootcamp.swift in Sources */,
@@ -672,6 +692,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -702,6 +723,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
