@@ -39,7 +39,7 @@ struct NativePopoverBootcamp: View {
                             }
                         }
                     }
-                    .padding(EdgeInsets(top: 3, leading: 3, bottom: 3, trailing: 3))
+                    .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
                     .presentationCompactAdaptation(.popover)
                 })
 //                .popover(isPresented: $showPopover, content: {

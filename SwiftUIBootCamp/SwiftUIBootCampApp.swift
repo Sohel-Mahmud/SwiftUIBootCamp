@@ -7,11 +7,25 @@
 
 import SwiftUI
 
+/*
+ MVVM Architecture
+ 
+ Model - data point
+ View - UI
+ ViewModel - Manages Models for view
+ */
+
 @main
 struct SwiftUIBootCampApp: App {
     var body: some Scene {
         WindowGroup {
-            SubmitButtonKeyboardBootcamp()
+            /// This commented line for Bootcamp
+            //SubmitButtonKeyboardBootcamp()
+            
+            /// This is for todolist app
+            NavigationStack {
+                ListView()
+            }
         }
     }
 }
