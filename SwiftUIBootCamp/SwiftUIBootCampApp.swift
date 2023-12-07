@@ -17,6 +17,10 @@ import SwiftUI
 
 @main
 struct SwiftUIBootCampApp: App {
+    
+    /// For ToDo List App
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             /// This commented line for Bootcamp
@@ -26,6 +30,11 @@ struct SwiftUIBootCampApp: App {
             NavigationStack {
                 ListView()
             }
+            /// ``environmentObject(_:)``
+            /// lets the viewmodel passed into this
+            /// accessable by all the subviews within the scope
+            /// like globally availabe to all subviews
+            .environmentObject(listViewModel)
         }
     }
 }
