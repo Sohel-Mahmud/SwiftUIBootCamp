@@ -26,7 +26,9 @@ struct AddView: View {
                 TextField("Type somthing here..", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color.gray.opacity(0.3))
+                /// this is for dark mode
+                /// all system colors behaves well
+                    .background(Color(UIColor.secondarySystemBackground))
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 
                 Button(action: saveButtonPressed, label: {
