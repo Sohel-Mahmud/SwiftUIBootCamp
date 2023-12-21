@@ -8,6 +8,13 @@
 import SwiftUI
 import MapKit
 
+/*
+ For latest map integration in 17.0
+ https://developer.apple.com/videos/play/wwdc2023/10043/
+ 
+ https://useyourloaf.com/blog/mapkit-for-swiftui/
+ */
+
 
 struct LocationsView: View {
     
@@ -23,13 +30,35 @@ struct LocationsView: View {
     var body: some View {
         ZStack {
             if #available(iOS 17.0, *) {
-                Map(position: .constant(cameraPositon), bounds: nil, interactionModes: .all, scope: nil)
-                    .mapStyle(.standard(elevation: .realistic))
-                    .ignoresSafeArea()
+                Map(position: .constant(cameraPositon), bounds: nil, interactionModes: .all, scope: nil) {
+                    ForEach(vm.locations) { location in
+                        // use this for default marker
+                        //Marker(location.name, coordinate: location.coordinates)
+                        
+                        // custom marker annotation
+                        Annotation(location.name, coordinate: location.coordinates, anchor: .bottom) {
+                            LocationMapAnnotionView()
+                                .scaleEffect(vm.mapLocation == location ? 1.0 : 0.7)
+                                .shadow(radius: 5)
+                                .onTapGesture {
+                                    vm.showNextLocation(location: location)
+                                }
+                        }
+                    }
+                }
+                .mapStyle(.standard(elevation: .realistic))
+                .ignoresSafeArea()
+                
             } else {
                 // depricated
-                Map(coordinateRegion: $vm.mapRegion)
-                    .ignoresSafeArea()
+                Map(coordinateRegion: $vm.mapRegion,
+                    annotationItems: vm.locations,
+                    annotationContent: { location in
+                    MapAnnotation(coordinate: location.coordinates) {
+                        Text("hello")
+                    }
+                })
+                .ignoresSafeArea()
                 
             }
             VStack {
@@ -39,18 +68,7 @@ struct LocationsView: View {
                 
                 Spacer()
                 
-                ZStack {
-                    ForEach(vm.locations) { location in
-                        
-                        if vm.mapLocation == location {
-                            LocationPreviewView(location: location)
-                                .padding()
-                                .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
-                        }
-                        
-                        
-                    }
-                }
+                locationPreviewStack
             }
             
             
@@ -88,6 +106,21 @@ extension LocationsView {
         .background(.thinMaterial)
         .clipShape(RoundedRectangle(cornerRadius: 10.0))
         .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+    }
+    
+    private var locationPreviewStack: some View {
+        ZStack {
+            ForEach(vm.locations) { location in
+                
+                if vm.mapLocation == location {
+                    LocationPreviewView(location: location)
+                        .padding()
+                        .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                }
+                
+                
+            }
+        }
     }
 }
 

@@ -76,6 +76,7 @@
 		DFBF43E42AEA44AA00AD7792 /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF43E32AEA44AA00AD7792 /* ContextMenuBootcamp.swift */; };
 		DFBF43E62AEA6BBA00AD7792 /* TextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF43E52AEA6BBA00AD7792 /* TextFieldBootcamp.swift */; };
 		DFBF81BD2B26E63500C725B8 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF81BC2B26E63500C725B8 /* NoItemsView.swift */; };
+		DFC202D02B345285008FEA84 /* LocationMapAnnotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC202CF2B345285008FEA84 /* LocationMapAnnotionView.swift */; };
 		DFC585372B2B02800063737B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC585362B2B02800063737B /* LaunchScreen.storyboard */; };
 		DFCCD0D52AE79AF7007501E8 /* NavigationViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCD0D42AE79AF7007501E8 /* NavigationViewBootCamp.swift */; };
 		DFCCD0D72AE7CD73007501E8 /* ListBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCCD0D62AE7CD73007501E8 /* ListBootCamp.swift */; };
@@ -185,6 +186,7 @@
 		DFBF43E32AEA44AA00AD7792 /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		DFBF43E52AEA6BBA00AD7792 /* TextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootcamp.swift; sourceTree = "<group>"; };
 		DFBF81BC2B26E63500C725B8 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		DFC202CF2B345285008FEA84 /* LocationMapAnnotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotionView.swift; sourceTree = "<group>"; };
 		DFC585362B2B02800063737B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFCCD0D42AE79AF7007501E8 /* NavigationViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootCamp.swift; sourceTree = "<group>"; };
 		DFCCD0D62AE7CD73007501E8 /* ListBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootCamp.swift; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 				DF073C1C2B3161B000EAFD9A /* LocationsView.swift */,
 				DF073C202B31B70E00EAFD9A /* LocationListView.swift */,
 				DFE1A39C2B32FFAB00B21BBA /* LocaitonPreviewView.swift */,
+				DFC202CF2B345285008FEA84 /* LocationMapAnnotionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				DF9519082B073E7400C29989 /* BadgesBootcamp.swift in Sources */,
 				DF0A1B242ADF987B00FBD23D /* SafeAreaBootcamp.swift in Sources */,
 				634F08AD29E800A700DE8CDF /* InitializerBootcamp.swift in Sources */,
+				DFC202D02B345285008FEA84 /* LocationMapAnnotionView.swift in Sources */,
 				DF2C1FE32AF9FC5400559D3A /* IfLetGuardBootcamp.swift in Sources */,
 				DFD379452AE1247500C80748 /* SubViewBootCamp.swift in Sources */,
 				DF9519002B06081800C29989 /* AsyncImageBootcamp.swift in Sources */,
