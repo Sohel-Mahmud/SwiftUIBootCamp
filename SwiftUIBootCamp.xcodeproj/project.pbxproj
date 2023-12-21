@@ -87,6 +87,7 @@
 		DFDD82282AEB7A2C000D133B /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82272AEB7A2C000D133B /* ToggleBootcamp.swift */; };
 		DFDD822A2AEBAB99000D133B /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */; };
 		DFDD822C2AEBC986000D133B /* ColorPickerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */; };
+		DFE1A39D2B32FFAB00B21BBA /* LocaitonPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1A39C2B32FFAB00B21BBA /* LocaitonPreviewView.swift */; };
 		DFF5FF392AF8DD03003A8643 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5FF382AF8DD03003A8643 /* OnAppearBootcamp.swift */; };
 		DFFAE8322B172E5E002B834F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAE8312B172E5E002B834F /* AddView.swift */; };
 		DFFAE8352B173D4A002B834F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAE8342B173D4A002B834F /* ItemModel.swift */; };
@@ -195,6 +196,7 @@
 		DFDD82272AEB7A2C000D133B /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
 		DFDD82292AEBAB99000D133B /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		DFDD822B2AEBC986000D133B /* ColorPickerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootCamp.swift; sourceTree = "<group>"; };
+		DFE1A39C2B32FFAB00B21BBA /* LocaitonPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaitonPreviewView.swift; sourceTree = "<group>"; };
 		DFF5FF382AF8DD03003A8643 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
 		DFFAE8312B172E5E002B834F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DFFAE8342B173D4A002B834F /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 			children = (
 				DF073C1C2B3161B000EAFD9A /* LocationsView.swift */,
 				DF073C202B31B70E00EAFD9A /* LocationListView.swift */,
+				DFE1A39C2B32FFAB00B21BBA /* LocaitonPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				DFBF43E22AEA183A00AD7792 /* ActionSheetBootcamp.swift in Sources */,
 				63F2D59929E6ACE100326255 /* PaddingAndSpacerBootcamp.swift in Sources */,
 				DFFAE8352B173D4A002B834F /* ItemModel.swift in Sources */,
+				DFE1A39D2B32FFAB00B21BBA /* LocaitonPreviewView.swift in Sources */,
 				DF0A1B262ADFB38F00FBD23D /* ButtonsBootCamp.swift in Sources */,
 				DFD379432AE101BC00C80748 /* FunctionViewBootcamp.swift in Sources */,
 				DFDD822A2AEBAB99000D133B /* PickerBootcamp.swift in Sources */,
