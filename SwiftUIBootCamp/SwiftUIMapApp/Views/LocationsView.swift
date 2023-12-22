@@ -27,6 +27,8 @@ struct LocationsView: View {
         MapCameraPosition.region(vm.mapRegion)
     }
         
+    let maxWidthForIpad: CGFloat = 700
+    
     var body: some View {
         ZStack {
             if #available(iOS 17.0, *) {
@@ -64,7 +66,7 @@ struct LocationsView: View {
             VStack {
                 header
                     .padding()
-                
+                    .frame(maxWidth: maxWidthForIpad)
                 
                 Spacer()
                 
@@ -72,6 +74,9 @@ struct LocationsView: View {
             }
             
             
+        }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailsView(location: location)
         }
         
     }
@@ -115,6 +120,8 @@ extension LocationsView {
                 if vm.mapLocation == location {
                     LocationPreviewView(location: location)
                         .padding()
+                        .frame(maxWidth: maxWidthForIpad)
+                        .frame(maxWidth: .infinity)
                         .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
                 }
                 
